@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SportPedia</string>
+
+    <string name="content_title">Sport Pedia</string>
+    <string name="content_text1">Bookmark Berhasil Disimpan</string>
+    <string name="content_text2">Bookmark Berhasil Dihapus</string>
+    <string name="subtext">Favorite</string>
+    <string name="send_notif">Send Notif</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_greedient"
+    android:padding="@dimen/padding"
+    android:layout_height="match_parent"
+
+    tools:context=".fragment.HomeFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-black"
+        android:text="Sport Pedia"
+        android:textColor="#EC7210"
+        android:shadowColor="#FF5722"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="50"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:id="@+id/desc_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_normal"
+        android:text="Selamat Datang di Sport pedia" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_tour"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginTop="22dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sport_pedia_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Ingin Lihat Liga Inggris?"
+            android:textColor="#424B67"
+            android:textSize="12sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_move"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_button"
+            android:fontFamily="sans-serif"
+            android:text="YES PLEASE"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
